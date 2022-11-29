@@ -35,7 +35,7 @@ def Get_Database():
 	print('----------------------------------------------------------------')
 
 
-firebase = firebase.FirebaseApplication('https://data-793f6-default-rtdb.firebaseio.com/',None)
+firebase = firebase.FirebaseApplication('https://------------rtdb.firebaseio.com/',None)
 data = {
 			'Percentage': perc,
 			'pH':pH,
@@ -43,7 +43,7 @@ data = {
 			'CL001':CL001,
 			'CL002':CL002
 			}
-result = firebase.post('/data-793f6-default-rtdb/Tester1',data) #post data 
+result = firebase.post('/----------------rtdb/Tester1',data) #post data 
 
 
 
